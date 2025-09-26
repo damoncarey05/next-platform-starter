@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital — The Next Step | OnlyFans Management Agency</title>
+  <meta name="description" content="Professional OnlyFans management for creators who want growth without the guesswork. Strategy, content ops, fan management, and monetization handled for you." />
+  <meta property="og:title" content="Digital — The Next Step" />
+  <meta property="og:description" content="Apply to work with a professional OnlyFans management team." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og.jpg" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root{
+      --peach:#F6C4AD; --ink:#111217; --warm:#E7E7E3; --text:#0A0B0F; --muted:#5E626E; --ring:#11121722;
+      --radius:14px; --space: clamp(16px, 2.8vw, 28px);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--warm);color:var(--text);font:15px/1.6 Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial}
+    .container{max-width:1100px;margin:0 auto;padding:0 var(--space)}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
+    .brand-badge{background:var(--peach);border-radius:999px;padding:8px 12px}
+    .btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;border:2px solid var(--ink);
+         background:var(--ink);color:#fff;padding:12px 18px;border-radius:999px;transition:transform .06s ease, box-shadow .2s ease}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px -10px var(--ink)}
+    .btn.peach{background:var(--peach);color:var(--ink);border-color:var(--ink)}
+    .btn.ghost{background:transparent;color:var(--ink)}
+    .hero{padding:72px 0 42px;display:grid;gap:18px}
+    h1{font-size:clamp(32px,5vw,56px);line-height:1.07;margin:0}
+    h2{font-size:clamp(22px,3vw,32px);margin:0 0 8px}
+    p.lead{font-size:clamp(16px,2.2vw,18px);color:var(--muted);margin:0}
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+    .section{padding:28px 0}
+    .grid{display:grid;gap:18px}
+    .cols-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:#fff;border:1px solid #D9DBE1;border-radius:var(--radius);padding:20px}
+    .bullet{display:flex;gap:10px;align-items:flex-start}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--ink);margin-top:7px}
+    .pill{display:inline-block;background:#fff;border:1px dashed #C9CCD6;border-radius:999px;padding:8px 12px;font-weight:700}
+    .logo-bar{display:flex;gap:18px;align-items:center;flex-wrap:wrap;opacity:.85}
+    .process-step{display:flex;gap:12px}
+    .price{font-size:28px;font-weight:900}
+    .footer{border-top:1px solid #D9DBE1;margin-top:40px;padding:28px 0;color:#666;font-size:14px}
+    form input, form select, form textarea{
+      width:100%;padding:12px 14px;border-radius:12px;border:1px solid #C9CCD6;background:#fff;color:var(--text)
+    }
+    form input:focus, form select:focus, form textarea:focus{outline:3px solid var(--ring);border-color:#AEB3C0}
+    .notice{font-size:12px;color:#777}
+    .badge{font-weight:800;font-size:12px;letter-spacing:.04em;padding:6px 10px;border-radius:999px;background:var(--ink);color:#fff}
+    .circle{width:120px;height:120px;background:var(--peach);border:2px solid var(--ink);border-radius:50%}
+    @media (min-width:900px){ .hero{grid-template-columns:1.2fr .8fr;align-items:center} }
+  </style>
+</head>
+<body>
+  <header class="container nav">
+    <div class="brand">
+      <span class="brand-badge">Digital</span>
+      <span>THE NEXT STEP</span>
+    </div>
+    <nav class="cta">
+      <a href="#work" class="btn ghost">How it works</a>
+      <a href="#apply" class="btn peach">Apply to work with us</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Professional OnlyFans management that grows revenue—without burning you out.</h1>
+        <p class="lead">We run the strategy, content ops, fan management, and paywall optimization. You stay the face—our team handles the rest.</p>
+        <div class="cta">
+          <a href="#apply" class="btn">Start your application</a>
+          <a href="#results" class="btn ghost">See results</a>
+        </div>
+        <div style="margin-top:16px" class="logo-bar">
+          <span class="pill">Growth strategy</span>
+          <span class="pill">Content calendar</span>
+          <span class="pill">DM & fan care</span>
+          <span class="pill">Monetization</span>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:center">
+        <div class="circle" title="brand accent"></div>
+      </div>
+    </section>
+
+    <section id="benefits" class="section grid cols-3">
+      <div class="card">
+        <h2>Clear growth plan</h2>
+        <p class="lead">Weekly content & promo plan tuned to your brand.</p>
+      </div>
+      <div class="card">
+        <h2>Done-for-you ops</h2>
+        <p class="lead">Editing, scheduling, captions, PPV packs, pricing tests.</p>
+      </div>
+      <div class="card">
+        <h2>Fan management</h2>
+        <p class="lead">Ethical, on-brand DMs and retention flows that convert.</p>
+      </div>
+    </section>
+
+    <section id="work" class="section card">
+      <h2>How it works</h2>
+      <div class="grid cols-3" style="margin-top:10px">
+        <div class="process-step">
+          <strong>1.</strong>
+          <div><strong>Audit</strong><br><span class="lead">We review profile, pricing, content library, and funnels.</span></div>
+        </div>
+        <div class="process-step">
+          <strong>2.</strong>
+          <div><strong>Plan</strong><br><span class="lead">Content calendar + monetization roadmap for 30–60 days.</span></div>
+        </div>
+        <div class="process-step">
+          <strong>3.</strong>
+          <div><strong>Operate</strong><br><span class="lead">We run daily ops and report weekly with metrics and next steps.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section grid cols-3">
+      <div class="card">
+        <h2>Recent Wins</h2>
+        <div class="bullet"><span class="dot"></span><div>First 60 days: +XX% net revenue (pricing test + bundles).</div></div>
+        <div class="bullet"><span class="dot"></span><div>DM automation reduced response time to under 10 minutes.</div></div>
+        <div class="bullet"><span class="dot"></span><div>Churn down from X.X% → X.X% with retention offers.</div></div>
+      </div>
+      <div class="card">
+        <h2>Who we fit</h2>
+        <p class="lead">Creators posting consistently and ready to scale with a professional team. We don’t promise overnight riches—just steady, managed growth.</p>
+      </div>
+      <div class="card">
+        <h2>What we manage</h2>
+        <p class="lead">Content ops, PPV strategy, mass DMs, promos & collabs, VIP tiers, reporting, and customer support.</p>
+      </div>
+    </section>
+
+    <section id="pricing" class="section grid cols-3">
+      <div class="card">
+        <h2>Management</h2>
+        <p class="price">Rev-share</p>
+        <p class="lead">Aligned incentives. We grow when you grow.</p>
+        <a href="#apply" class="btn peach">Apply for management</a>
+      </div>
+      <div class="card">
+        <h2>Growth Sprint</h2>
+        <p class="price">$X,XXX / 30 days</p>
+        <p class="lead">Intensive playbook: audit, calendar, pricing tests, and reporting.</p>
+        <a href="#apply" class="btn">Start a sprint</a>
+      </div>
+      <div class="card">
+        <h2>Consulting</h2>
+        <p class="price">$XXX / hr</p>
+        <p class="lead">For teams who want strategy only.</p>
+        <a href="#apply" class="btn ghost">Book a call</a>
+      </div>
+    </section>
+
+    <section id="faq" class="section card">
+      <h2>FAQ</h2>
+      <p><strong>Is content explicit on this site?</strong><br><span class="lead">No. Our site is professional and SFW. All creator content remains on their platforms.</span></p>
+      <p><strong>Who owns the accounts?</strong><br><span class="lead">You do. We operate with permission and clear access rules.</span></p>
+      <p><strong>How soon can you start?</strong><br><span class="lead">After an audit and fit check—usually within 7 days.</span></p>
+      <p><strong>Do you work with new creators?</strong><br><span class="lead">Yes, if you have time for content creation and a clear brand direction.</span></p>
+    </section>
+
+    <section id="apply" class="section card">
+      <div class="badge">Apply</div>
+      <h2 style="margin-top:8px">Apply to work with Digital — The Next Step</h2>
+      <!-- Netlify-ready form. Or connect to any backend/CRM. -->
+      <form name="apply" method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="apply" />
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px">
+          <input name="name" placeholder="Your name" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <input name="instagram" placeholder="Instagram / Twitter handle" />
+          <input name="onlyfans" placeholder="OnlyFans link (optional)" />
+          <select name="creator_stage" required>
+            <option value="">Current stage</option>
+            <option>New (0–3 months)</option>
+            <option>Growing (3–12 months)</option>
+            <option>Established (12+ months)</option>
+          </select>
+          <select name="interest" required>
+            <option value="">What are you interested in?</option>
+            <option>Full Management</option>
+            <option>Growth Sprint</option>
+            <option>Consulting</option>
+          </select>
+        </div>
+        <textarea name="goals" rows="4" placeholder="What are your goals over the next 90 days?"></textarea>
+        <div class="cta" style="margin-top:12px">
+          <button class="btn" type="submit">Submit application</button>
+          <a class="btn peach" href="mailto:hello@yourdomain.com">Email us</a>
+        </div>
+        <p class="notice">By submitting, you agree to our <a href="/terms.html">Terms</a> and <a href="/privacy.html">Privacy Policy</a>.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    © <span id="y"></span> Digital — The Next Step • Professional OnlyFans Management
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
